@@ -16,4 +16,14 @@ class NewController extends AbstractController
             'controller_name' => 'NewController',
         ]);
     }
+
+    /**
+     * @Route("/new2", name="new2")
+     */
+    public function test()
+    {
+        return $this->render('new/test.html', [
+            'var1' => 'I am the value of var1',
+        ]);
+    }
 }
