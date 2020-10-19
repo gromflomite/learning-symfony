@@ -10,9 +10,21 @@
 
 ---
 
+### Create new controller using maker recipe
+
+[maker-bundle package](https://packagist.org/packages/symfony/maker-bundle)
+
+- Create new controller:
+
+    ```php bin/console make:controller NewController```
+
+    A new controller and a view (template) will be created.
+
+---
+
 ### PHP built-in web server
 
-php -S localhost:8000 -t foo
+php -S localhost:8000 -t folder
 
 ``` 
 -S -> Server
