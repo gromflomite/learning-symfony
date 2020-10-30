@@ -1,7 +1,23 @@
 # Symfony
 
+## Basics
+
+Symfony MVC:
+
+- M -> Entity
+- V -> Template
+- C -> Controller
+
+Check Symfony requirements:
+
+```symfony check:req```
+
+---
+
 ### Create new Symfony project
-	
+
+```symfony new projectName``` -> It's a shortcut for:
+
 `composer create-project symfony/website-skeleton projectName`
 	
 - Create new project specifying framework version:
@@ -22,16 +38,31 @@
 
 ---
 
-### PHP built-in web server
+### Twig
 
-php -S localhost:8000 -t folder
+If rendering a template in a controller:
+
+Extend the class with AbstractController -> ```class ControllerName extends AbstractController``` 
+And import ->  ```use Symfony\Bundle\FrameworkBundle\Controller\AbstractController```
+
+---
+
+### Web server
+
+Symfony:
+
+```symfony serve```
+
+PHP built-in:
+
+```php -S localhost:8000 -t folder```
 
 ``` 
 -S -> Server
--t -> index folder
+-t -> index folder (usually, "public")
 ```
 
-- Symfony example:
+- Example for Symfony project:
 
 ``` 
 cd projectName
