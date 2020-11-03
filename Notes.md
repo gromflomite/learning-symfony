@@ -73,10 +73,18 @@ php -S localhost:8000 -t public
 
 ### Doctrine and DB
 
+
+
 Install Docrtrine (using Symfony ORM pack https://github.com/symfony/orm-pack):
 
 ```composer require orm```
 
 Create DB (DB credentials located into file  ```.env```)
 
-```php bin/console doctrine:database:create``` 
+```php bin/console doctrine:database:create```
+
+Create an Entity Class
+
+```php bin/console make:entity``` -> Will create a new file: ```src/Entity/EntityClassName.php```
+
+
