@@ -91,4 +91,7 @@ Create a Migration
 
 ```php bin/console make:migration```
 
+Run a Migration:
+
+```php bin/console doctrine:migrations:migrate```
 
