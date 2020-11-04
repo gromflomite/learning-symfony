@@ -85,7 +85,7 @@ Create an Entity Class
 
 ```php bin/console make:entity``` -> Will create a new file: ```src/Entity/EntityClassName.php```
 
-Important: [Doctrine Annotations](https://www.doctrine-project.org/projects/doctrine-orm/en/2.7/reference/annotations-reference.html)
+**Important:** [Doctrine Annotations](https://www.doctrine-project.org/projects/doctrine-orm/en/2.7/reference/annotations-reference.html)
 
 Create a Migration
 
