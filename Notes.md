@@ -87,4 +87,8 @@ Create an Entity Class
 
 ```php bin/console make:entity``` -> Will create a new file: ```src/Entity/EntityClassName.php```
 
+Create a Migration
+
+```php bin/console make:migration```
+
 
