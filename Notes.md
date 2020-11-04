@@ -73,9 +73,7 @@ php -S localhost:8000 -t public
 
 ### Doctrine and DB
 
-
-
-Install Docrtrine (using Symfony ORM pack https://github.com/symfony/orm-pack):
+Install Doctrine (using Symfony ORM pack https://github.com/symfony/orm-pack):
 
 ```composer require orm```
 
@@ -86,6 +84,8 @@ Create DB (DB credentials located into file  ```.env```)
 Create an Entity Class
 
 ```php bin/console make:entity``` -> Will create a new file: ```src/Entity/EntityClassName.php```
+
+Important: [Doctrine Annotations](https://www.doctrine-project.org/projects/doctrine-orm/en/2.7/reference/annotations-reference.html)
 
 Create a Migration
 
